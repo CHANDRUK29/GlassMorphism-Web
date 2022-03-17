@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+:root{
+    --one-color:#333;
+}
+h1,h2,h3,h4,a,p{
+    color: var(--one-color);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+h3{
+    font-weight: 600;
+
+}
+p{
+    font-weight: 300;
+}
+.m-t{
+    margin-top: 150px;
+}
+.m-b{
+    margin-bottom: 100px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+
+}
+/* ----Header Section---- */
+nav{
+    height: 100px;
+   
+}
+nav h2{
+    float: left;
+    display: inline;
+    line-height: 100px;
+
+}
+nav ul{
+    
+    float: right;
+    line-height: 100px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+nav ul li a{
+    text-transform: uppercase;
+}
+.active{
+    background-color: #eb7620;
+    border-radius: 20px;
+    padding: 7px 25px;
+    color: #fff;
+}
+
+/* ---Main Area--- */
+.showcase{
+    height: calc(120vh);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(/img/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #eb7620;
+}
+.showcase-content h1{
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+.showcase-content p{
+    margin: 50px 0;
+    color: #fff;
+}
+.showcase-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(30vh);
+    
+}
+.showcase-content .btn{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    
+}
+.showcase-content .btn:hover{
+    background-color: #eb7620;
+    border: 0;
+}
