@@ -238,6 +238,8 @@ p{
     .navlinks li{
         margin: 30px auto;
     }
+
+    
     /*----Events----*/
     .row{
         flex-direction: column;
